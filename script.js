@@ -1,11 +1,8 @@
 const btn = document.querySelectorAll('.btn')
 console.log(btn)
-
-
-
 const playSong = () =>{
   const song = new Audio('/Sunnyskyking_Awesome_praise.mp3')
-  console.log(/Sunnyskyking.mp3)
+  console.log(Sunnyskyking.mp3)
   song.play()
 alert('A button was clicked')
 }
