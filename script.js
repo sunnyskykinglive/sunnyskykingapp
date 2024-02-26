@@ -6,8 +6,8 @@ console.log(btn)
 
 
 const playSong = () =>{
-  const song = new Audio('/music.mp3')
-  console.log(song.mp3)
+  const song = new Audio('/Sunnyskyking_Awesome_praise.mp3'
+  console.log(Sunnyskyking_Awesome_praise.mp3)
   song.play()
 alert('A button was clicked')
 }
