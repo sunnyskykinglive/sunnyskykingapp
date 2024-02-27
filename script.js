@@ -1,15 +1,18 @@
+
 const btn = document.querySelectorAll('.btn')
 console.log(btn)
+
+
+
 const playSong = () =>{
   const song = new Audio('/Sunnyskyking_Awesome_praise.mp3')
-  console.log(sunnyskyking.mp3)
+  console.log(song.mp3)
   song.play()
 alert('A button was clicked')
 }
 
 
 for(let i = 0 ; i<btn.length ; i++){
- // console.log(i)
   btn[i].addEventListener('click' , playSong)
 }
 
@@ -53,3 +56,5 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .catch(error => console.error('Error fetching music list:', error));
 });
+
+
