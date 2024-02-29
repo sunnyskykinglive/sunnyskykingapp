@@ -152,17 +152,8 @@ header {
     padding: 1px;
     right: 1px;
 }
-button .download-button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+button{
+    border-radius: 50px;
 }
 
 *{box-sizing:border-box}
@@ -174,7 +165,7 @@ button .download-button {
   margin: auto;
 }
 
-
+/* Hide the images by default */
 .mySlides {
   display: none;
 }
@@ -262,3 +253,32 @@ button .download-button {
     display: inline-block;
     margin-right: 10px;
 }
+
+  
+  #music-link {
+    text-decoration: none;
+  }
+  
+  #music-link img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  #back-to-top {
+    text-decoration: none;
+    color: #fff;
+  }
