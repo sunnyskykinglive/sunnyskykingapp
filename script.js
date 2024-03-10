@@ -1,12 +1,11 @@
-
 const btn = document.querySelectorAll('.btn')
 console.log(btn)
 
 
 
 const playSong = () =>{
-  const song = new Audio('/Song.mp3')
-  console.log(Song.mp3)
+  const song = new Audio('/music.mp3')
+  console.log(song.mp3)
   song.play()
 alert('A button was clicked')
 }
@@ -57,4 +56,16 @@ document.addEventListener('DOMContentLoaded', function() {
       .catch(error => console.error('Error fetching music list:', error));
 });
 
+const playButton = document.getElementById('playButton');
+const audioPlayer = document.getElementById('audioPlayer');
+
+playButton.addEventListener('click', function() {
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+    playButton.textContent = 'Pause Song';
+  } else {
+    audioPlayer.pause();
+    playButton.textContent = 'Play Song';
+  }
+});
 
