@@ -68,7 +68,7 @@
 
   float: left;
   
-  border: 1px solid green;
+  
   
   }
   
@@ -124,17 +124,16 @@ body {
   padding: 10;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #6017c0;
+  background-color: #e6ddf1;
   color: rgb(2, 201, 236);
   background-color: #2f3541;
   background-image: url(mm.png);
   max-width: 100%;
-  
 
   
 }
 
-
+k
 nav {
   display: flex;
   justify-content: space-between;
@@ -300,7 +299,7 @@ form {
   }
 }
 
-@media (min-width:1200px) and (max-width: 1199px) {
+@media (min-width:200px) and (max-width: 1199px) {
   header {
     width: 100px;
   }
@@ -394,7 +393,7 @@ position: absolute;
 top: 0;
 }
 
-/* The dots/bullets/indicators */
+
 .dot {
 cursor: pointer;
 height: 15px;
