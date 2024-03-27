@@ -122,8 +122,6 @@ body {
   max-width: 1000px;
   margin: 10;
   padding: 10;
-  border: #1adf4b solid 1px;
-  
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #6017c0;
@@ -131,6 +129,7 @@ body {
   background-color: #2f3541;
   background-image: url(mm.png);
   max-width: 100%;
+  
 
   
 }
