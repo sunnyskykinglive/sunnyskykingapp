@@ -19,7 +19,7 @@
     
 
     
-       <a href="7index.html">  <img class="logo" src="logo.jpg" ></img></a>
+       <a href="index.html">  <img class="logo" src="logo.jpg" ></img></a>
       
       
       
@@ -36,7 +36,7 @@
         </div>
          <nav style="margin-top: 0; padding-right: 0; top: 0;  right: 0;">
             <ul class="nav-links" >
-                <li><a href="7index.html"><img src="icons.png" width="50px" alt=""></a></li>
+                <li><a href="index.html"><img src="icons.png" width="50px" alt=""></a></li>
                 <li><a href="#music"><i class="fas fa-music"></i> Music</a></li>
                 <li><a href="#videos"> <i class="fas fa-video"></i> videos</a></li>
                 <li><a href="#about"> <i class="fas fa-user" ></i>About</a></li>
@@ -63,6 +63,9 @@
 
 
 
+<div id="text-to-show" style="display: none;">
+    <p>I am a full stack developer</p>
+</div>
 <div class="music container"><ul class="social-icons">
     <li><a href="https://www.facebook.com/sunnyskyking11"><i class="fab fa-facebook"></i></a></li>
     <li><a href="https://twitter.com/sunnyskyking"><i class="fab fa-twitter"></i></a></li>
@@ -72,11 +75,11 @@
 </ul></div>
 <section>
     <div class="container ">
-        <div class="slider cool">
+        <div class="slider">
             <div class="slide-container" >
-                  <div class="slide"><img height="338px" width="370px" src="boss.jpg" alt="Sunnyskyking"></div>
-                <div class="slide"><img height="338px" width="370px" src="awesomepraise.jpg" alt="king"></div>
-                <div class="slide"><img height="338px" width="370px" src="ball3d.png" alt="awesome3"></div>
+                  <div class="slide"><img height="317px" width="290px" src="boss.jpg" alt="Sunnyskyking"></div>
+                <div class="slide"><img height="317px" width="290px" src="awesomepraise.jpg" alt="king"></div>
+                <div class="slide"><img height="317px" width="290px" src="ball3d.png" alt="awesome3"></div>
             </div>
         </div>
         
@@ -89,6 +92,7 @@
     <p>Download Sunnyskyking latest Music
     </p>
 </div>
+
 
 <section class="section container">
 <main>
@@ -162,7 +166,7 @@
 
 <div class="container" id="videos">
                 
-    <h1>Sunnyskyking Music</h1> <br>
+    <h1> cool video</h1> <br>
     <p>Download Sunnyskyking  Videos
     </p>
 </div>
@@ -268,6 +272,12 @@
         slides[slideIndex - 1].style.display = "block";
         setTimeout(showSlides, 1500); 
     }
+
+ 
+        setTimeout(function() {
+            document.getElementById('text-to-show').style.display = 'block';
+        }, 3000);
+  
 </script>
 <main> <footer class="fixed-footer"> 
 
