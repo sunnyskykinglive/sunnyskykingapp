@@ -1,23 +1,22 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 3px;
+    margin: 3px;
     box-sizing: border-box;
 }
 body  {
     color: gold ;
     background-color: rgb(0, 0, 0);
     align-items: center;
-    background-image: url(mm.png) ;
     max-width: 100%;
-    padding-left: 3%;
-    padding-right: 3%;
-    margin-left:3%;
-    margin-right: 3%;
-    background: url(mm.png) repeat;
+
+    box-shadow: goldenrod 1px 5px 7px;
 }
 .cool {
-    background-color: black
-
+    
+    background: url(mm.png) ;
+    align-items: center;
+    text-align: center;
+  right: 50%;
 }
  audio{
   width: 100%;
@@ -27,13 +26,14 @@ body  {
 .header {
     position: fixed;
     color: aqua;
+     height: 70px; top: 0px ; right: 0px; width: 100%; background-color: teal;
     
 }
 
 ul li {
-    color: rgb(11, 167, 240) ;
 
- 
+
+ color: #25fc09;
 }
 h1{
     margin-top: 90px ;
@@ -43,11 +43,109 @@ h1{
 }
 a {
     color: goldenrod;
+    
 }
 .logo{
     width: 130px;
     height: 70px;
 }
+
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  background-color: #000;
+  box-shadow: goldenrod 1px 8px  19px;
+}
+
+.section {
+  margin:  0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(7, 241, 7, 0.2) 5px 8px 24px;
+  background-color: #000;
+  align-items: center;
+}
+.img{
+  width: 400px;
+  height: 400px;
+
+}
+.picture{
+  width: 300px;
+  text-align: center;
+  height: 400px;
+  right: 40%;
+
+  
+}
+.section img {
+  width: 100%;
+
+}
+
+.section button {
+  width: 40%;
+  text-align: center;
+  margin: 2px auto;
+}
+
+.section p {
+  font-weight: bolder;
+}
+h1 {
+  padding-top: 70px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: x-large;
+  box-shadow: #008cff 1px 4px 17px;
+  text-align: center;
+  
+}
+h2{
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: x-large;
+  box-shadow: #008cff 1px 4px 17px;
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-family:  'Arial Narrow Bold', sans-serif;
+  background-color: black;
+  justify-content: center;
+}
+
+
+#bgdiv {
+  width: 50px;
+  height: 20px;
+  background: #007bff ;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  
+}
+div {
+  background-image: url("b.png");
+
+
+background-color: black
+
+}
+
+form {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
 
 @media (min-width: 1200px) {
 
@@ -169,8 +267,8 @@ a {
     align-items: center;
     position: 0;
     max-width: 100%;
-    
-  
+    top: 0% ;
+right: 4;  
   }
   
   logo {
@@ -191,152 +289,36 @@ a {
     margin-left: 0px;
   }
   
-  @media screen  and (max-width:20000px)  {
-    nav ul {
-      display: flex;
-      flex-wrap: nowrap;
-    
-    }
-    nav li {
-     margin:  0;
-  
-    }
-    
-  }
+ 
   li {
     list-style-type: none;
-    margin: 4%;
+    margin: 4px;
     padding: 8px;
-    box-shadow: rgba(55, 197, 91, 0.5) 0px 8px 24px;
-    color: rgb(26, 165, 230);
+    box-shadow: goldenrod 0px 8px 24px;
+    color: green;
     border-radius: 6px;
-  
+  justify-content: center;
   
   }
   
 
   
   
-  main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-   padding-left: 5%;
-   padding-right: 0%;
-    background-color: #000;
-  }
-  
-  .section {
-    margin: 22px 0;
-    display: flex;
-    flex-direction: column;
-    box-shadow: rgba(11, 216, 130, 0.2) 0px 8px 24px;
-    align-items: center;
-  }
-  .img{
-    width: 120px;
-    height: 300px;
-  
-  }
-  .picture{
-    width: 150px;
-    
-    
-  }
-  .section img {
-    width: 100%;
-  
-  }
-  
-  .section button {
-    width: 40%;
-    text-align: center;
-    margin: 2px auto;
-  }
-  
-  .section p {
-    font-weight: bolder;
-  }
-  h1 {
-    padding-top: 100px;
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: x-large;
-    box-shadow: #007bff;
-    
-  }
-  h2{
-    text-align: center;
-  }
-  p{
-    text-align: center;
-    font-family:  'Arial Narrow Bold', sans-serif;
-    background-color: black;
-  }
-  
-  .row {
-  background-color: black;
-  
-  }
-  
-  #bgdiv {
-    width: 50px;
-    height: 20px;
-    background: #007bff ;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    
-  }
-  div {
-    background-image: url("b.png");
-  padding: 1%;
-  margin: 20px;
-  background-color: black
-  
-  }
-  
-  form {
-    max-width: 300px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+ 
   
   
-  @media (max-width: 800px) {
-   
-    main {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 9px;
-        max-width: 100%;
-  
-       
-    }
-    header {
-      color: goldenrod;
-    }
-  }
-  
-  @media (min-width:200px) and (max-width: 1199px) {
-    header {
-      width: 100px;
-    }
-  }
+ 
   header {
     position: fixed;
-    background-color: rgb(11, 1, 17);
+    background-color: black;
     display: flex;
     top: 1px;
     
     height: 70px;
   
     top: 0;
-    left: 0;
-    width: 60%;
+    
+    width: 100%;
     
     
   }
@@ -348,28 +330,14 @@ a {
   .nav-link {
     display: flex;
   }
-  @media (max-width: 568px) {
-    .nav-links {
-        display: none;
-    }
-    .nav-links.active {
-        display: flex;
-        flex-direction: column;
-        background-color: #010f13;
-        padding: 0px;
-        position: absolute;
-        top: 0px;
-    
-        
-    }
-  }
+ 
   .sunnyskytop{
     float: right;
-    
+    top: 0%;
     height: 55px;
     margin: 1px;
     padding: 0px;
-    right: 1px;
+    right: 0px;
     padding-right: 0;
     background-color:#007bff;
   }
@@ -394,11 +362,11 @@ a {
   
   .text {
   color: #25fc09;
-  font-size: 15px;
+  font-size: 17px;
   padding: 8px 12px;
-  position: absolute;
+
   bottom: 8px;
-  width: 100%;
+ 
   text-align: center;
   }
   
@@ -458,12 +426,9 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    margin-top: 50px ;
   }
   
-  #back-to-top {
-    text-decoration: none;
-    color: #fff;
-  }
   i{
     color: goldenrod;
      font-size: 27px;
@@ -472,8 +437,8 @@ a {
      
   }
   .img{
-    width: 200px;
-    height: 3bbb00px;
+    width: 400px;
+    height: 200px;
   }
   button{
     border-radius: 17px;
@@ -485,3 +450,114 @@ a {
     font-size: xx-large;
   }
   
+
+
+
+  .text-container {
+    text-align: center;
+  }
+  
+  .text, .code {
+    overflow: hidden; /* Hide overflow content */
+    white-space: nowrap; /* Prevent wrapping */
+    border-right: 2px solid transparent; /* Typing cursor */
+    animation: typing 3s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+  }
+  
+  .text {
+    animation-delay: 0s; /* No delay for the first text */
+  }
+  
+  .code {
+    animation-delay: 3s;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: rgb(3, 49, 102); /* Typing cursor color */
+    }
+  }
+  
+
+
+
+ 
+
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:1px;
+    box-sizing: border-box;
+  }
+  
+ 
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+      padding: 15px;
+    }
+    
+  }
+  
+  
+  @media (max-width: 767px) {
+    .container {
+      padding: 0px;
+    }
+    .nav-links {
+      display: none;
+      
+  }
+  .nav-links.active {
+      display: flex;
+      flex-direction: column;
+      background-color: #010f13;
+      padding: 5px;
+      position: absolute;
+      top: 1px;
+      right: 3px;
+  
+      
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    gap: 5px;
+    max-width: 100%;
+
+   
+}
+  }
+  
+
+  @media (min-width: 1025px) {
+    .container {
+      padding: 5px;
+    }
+  }
+
+  @media only screen  and (max-width:20000px)  {
+    nav ul {
+      display: flex;
+      flex-wrap: nowrap;
+    
+    }
+    nav li {
+     margin:  0;
+  
+    }
+    
+  }
